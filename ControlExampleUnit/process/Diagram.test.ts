@@ -1,5 +1,5 @@
 import {assert} from 'chai';
-import {calculateViewData} from 'Controls/_process/DiagramUtils';
+import {calculateViewData} from 'ControlExample/_process/DiagramUtils';
 
 describe('Controls/_process/DiagramUtils', () => {
     describe('calculateViewData', () => {

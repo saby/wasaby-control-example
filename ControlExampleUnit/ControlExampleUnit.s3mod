@@ -3,4 +3,6 @@
   <depends>
     <module name="ControlsExample" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
   </depends>
+
+  <unit_test onlyNode="true"/>
 </ui_module>
