@@ -20,3 +20,7 @@
 1. Cоберите проект:
 
         npx wasaby-cli --tasks=build
+        
+1. Запустите юинт тесты:
+
+        npx wasaby-cli --tasks=startTest --node --report=console
