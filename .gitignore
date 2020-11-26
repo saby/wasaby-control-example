@@ -1,0 +1,13 @@
+.idea
+*.log
+/tsconfig.json
+/tslib.js
+/tslint.json
+/application
+/package-lock.json
+/yarn.lock
+/node_modules
+/artifacts/*
+/__pycache__
+/build-ui
+/builderConfig.json

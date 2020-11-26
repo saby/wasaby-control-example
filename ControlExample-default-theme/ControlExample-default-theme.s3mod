@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui_module for_cdn="0" id="30b50c1a-7ef3-46fd-b92e-5a1d5e6c0e43" name="ControlExample-default-theme" required="0" responsible="" version="1.00">
+  <depends>
+    <module name="Controls-default-theme" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
+  </depends>
+</ui_module>

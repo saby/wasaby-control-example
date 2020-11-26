@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui_module for_cdn="0" id="825cf059-c661-47bf-96ff-579e7ee5cfd3" name="ControlExample-demo" required="0" responsible="" version="1.00">
+  <depends>
+    <module name="Controls" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
+    <module name="ControlExample" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
+  </depends>
+</ui_module>
