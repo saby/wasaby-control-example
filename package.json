@@ -13,9 +13,9 @@
   "author": "kraynovdo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kraynovdo/wasaby-control-example/issues"
+    "url": "https://github.com/saby/wasaby-control-example/issues"
   },
-  "homepage": "https://github.com/kraynovdo/wasaby-control-example#readme",
+  "homepage": "https://github.com/saby/wasaby-control-example#readme",
   "devDependencies": {
     "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.1100"
   }
