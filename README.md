@@ -21,6 +21,6 @@
 
         npx wasaby-cli --tasks=build
         
-1. Запустите юинт тесты:
+1. Запустите юнит тесты:
 
         npx wasaby-cli --tasks=startTest --node --report=console
