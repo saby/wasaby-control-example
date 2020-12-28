@@ -24,3 +24,17 @@
 1. Запустите юнит тесты:
 
         npx wasaby-cli --tasks=startTest --node --report=console
+        
+1. Сгенерируйте разводящую страницу для демо-примеров. В качестве второго параметра укажите модуль, в котором лежат демки.
+
+        npx wasaby-cli --tasks=createIndex --moduleName=ControlExample-demo
+        
+1. Запустите локальный стенд с демо-примерами
+        
+         npx wasaby-cli --tasks=app
+         
+         
+         
+         После выполнения команды можно открыть в браузере localhost:1024 с разводящей страницей
+         
+         Отдельные демо-примеры доступны по адресу http://localhost:1024/DemoStand/app/<имя модуля>

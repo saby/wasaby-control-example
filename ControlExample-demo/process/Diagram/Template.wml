@@ -1,18 +1,18 @@
-<div class="controlsDemo__wrapper {{_options.theme.indexOf('default')<0 ? 'controlsDemo_fixedWidth500' : 'controlsDemo_fixedWidth300'}}">
-    <div class="controlsDemo__cell demo-checkboxIndex__base">
+<div>
+    <div attr:style="padding: 16px;">
         <Router.router:Reference attr:class="controls-text-label_theme-{{_options.theme}}"
-                                 state="/ControlExample-demo/app/:app"
-                                 app="{{ 'ControlExample-demo/process/Base/Index' }}">
+                                 state="/DemoStand/app/:app"
+                                 app="{{ 'ControlExample-demo/process/Diagram/Base/Index' }}">
             <a href="{{content.href}}">Базовая настройка диаграммы</a>
         </Router.router:Reference>
-        <ControlExample-demo.process.Base.Index/>
+        <ControlExample-demo.process.Diagram.Base.Index/>
     </div>
-    <div class="controlsDemo__cell demo-checkboxIndex__base">
+    <div attr:style="padding: 16px;">
         <Router.router:Reference attr:class="controls-text-label_theme-{{_options.theme}}"
-                                 state="/ControlExample-demo/app/:app"
-                                 app="{{ 'ControlExample-demo/process/BorderVisible/Index' }}">
-            <a href="{{content.href}}">Базовая настройка диаграммы</a>
+                                 state="/DemoStand/app/:app"
+                                 app="{{ 'ControlExample-demo/process/Diagram/BorderVisible/Index' }}">
+            <a href="{{content.href}}">Видимость границ</a>
         </Router.router:Reference>
-        <ControlExample-demo.process.BorderVisible.Index/>
+        <ControlExample-demo.process.Diagram.BorderVisible.Index/>
     </div>
 </div>

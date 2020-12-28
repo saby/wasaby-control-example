@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kraynovdo/wasaby-control-example.git"
+    "url": "git+https://github.com/saby/wasaby-control-example.git"
   },
   "author": "kraynovdo",
   "license": "ISC",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kraynovdo/wasaby-control-example#readme",
   "devDependencies": {
-    "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-20.7100"
+    "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.1100"
   }
 }

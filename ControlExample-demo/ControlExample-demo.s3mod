@@ -3,6 +3,6 @@
   <depends>
     <module name="Controls" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
     <module name="ControlExample" id="f6fdf353-3ab3-4dbb-8671-01c2b418bf0a"/>
-    <module id="a857d050-c754-4d39-90ec-fca5e2ddf022" name="Router"/>
+    <module name="DemoStand" id="0641abed-e0fb-4f42-990c-4c24bdbd7555"/>
   </depends>
 </ui_module>
