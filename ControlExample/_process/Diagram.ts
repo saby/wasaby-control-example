@@ -1,6 +1,7 @@
 import {Control, IControlOptions, TemplateFunction} from 'UI/Base';
 import controlTemplate = require('wml!ControlExample/_process/Diagram');
 import {calculateViewData} from './DiagramUtils';
+import 'css!ControlExample/process';
 
 export interface IDiagramCategory {
     name: string;
@@ -41,8 +42,6 @@ class Diagram extends Control<IDiagramOptions> {
             this._viewData = calculateViewData(options.data);
         }
     }
-
-    static _theme: string[] = ['ControlExample/process'];
 }
 export default Diagram;
 
