@@ -1,0 +1,9 @@
+{
+    "--inline_height_diagram":     "12px",
+    "--first_color_diagram":       "var(--success_color)",
+    "--second_color_diagram":      "#cccccc",
+    "--third_color_diagram":       "var(--danger_color)",
+    "--border-thickness_diagram":  "var(--border-thickness)",
+    "--border-color_diagram":      "var(--unaccented_color)",
+    "--border-radius_diagram":     "calc(var(--inline_height_diagram) / 2)"
+}
