@@ -4,7 +4,11 @@
   "description": "Example for Wasaby control development",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "update-cli-store": "wasaby-cli --tasks=initStore",
+    "prepare": "npm run update-cli-store && npm run build:typescript",
+    "build:typescript": "wasaby-cli --tasks=prepare",
+    "build": "wasaby-cli --tasks=build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,6 @@
   },
   "homepage": "https://github.com/saby/wasaby-control-example#readme",
   "devDependencies": {
-    "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.1100"
+    "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.2000"
   }
 }
